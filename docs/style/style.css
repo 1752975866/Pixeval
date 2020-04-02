@@ -1,0 +1,53 @@
+@font-face {
+    font-family: JosefinSlab;
+    src: url("../fonts/JosefinSlab-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: Grenze;
+    src: url("../fonts/Grenze-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: ChakraPetch;
+    src: url("../fonts/ChakraPetch-Regular.ttf");
+}
+
+#banner-logo { font-family: Grenze, serif; }
+
+#banner-intro { font-family: ChakraPetch, serif; }
+
+#logo-container {
+    margin: 0 auto;
+    width: 500px;
+}
+
+#logo {
+    font-size: 20px;
+    text-align: center;
+}
+
+.intro {
+    margin-bottom: 30px;
+    margin-top: 7px;
+    text-align: center;
+}
+
+.browse {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.parallax-container { height: 380px; }
+
+#badges {
+    display: table;
+    margin: 0 auto;
+}
+
+#badges li {
+    display: inline;
+    float: none;
+    margin-right: 5px;
+    text-align: center;
+}
